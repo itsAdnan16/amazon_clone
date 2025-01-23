@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    border:border-box;
+    font-family: Arial;
+}
+.navigation_bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 128px;
+    padding-left: 6px;
+    padding-right: 8px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-address{
+    align-items: center;
+}
+.address-icon{
+    display: flex;
+    margin-right: 5px;
+}
+.firsrt-line{
+    font-size: 0.8rem;
+    color: #CCCCCC;
+}
+.second-line{
+    margin-left: 3.5px;
+    font-size: 1rem;
+}
+.nav-search{
+    display: flex;
+    margin-left: 15px;
+    padding: 10px 4px 10px 3px;
+}
+.nav-search{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
+}
+.search-icon{
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edb164;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.search-input{
+    width: 47rem;
+}
+.options{
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.flag-lang {
+    width: 3.375rem; /* 54px / 16 */
+    height: 2.125rem; /* 34px / 16 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.9375rem; /* 15px / 16 */
+}
+.flag {
+    width: 1.35rem; /* 21.6px / 16 */
+    height: 1.3875rem; /* 22.2px / 16 */
+    background-image: url(flag2.png);
+    background-size: cover;
+}
+.lang {
+    width: 1.1375rem; /* 18.2px / 16 */
+    height: 0.9375rem; /* 15px / 16 */
+    font-size: 0.875rem; /* 14px / 16 */
+}
+.orders {
+    height: 50px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.orders p {
+    margin: 0;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.orders .nav-second-line {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.returns {
+    height: 50px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 17px ;
+}
+
+.returns span {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.returns .nav-second-line {
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-cart i{
+    font-size: 35px;
+}
+.nav-cart {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left:15px
+
+}
+.panel-menu{
+    width: 2.5625rem;   /* 41px */
+    height: 1.4375rem;  /* 23px */
+    padding: 8px 9px 8px 9px;
+}
+.Panel-options{
+    display: flex;
+    direction:row;
+}
+.panel{
+    color: #FFFFFF;
+    background-color: #232f3e;
+    display: flex;
+}
+.activity{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg{
+    height: 40px;
+    width: 80%;
+    background-color: #FFFFFF;
+    color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+/* Add these new styles and modifications */
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2 {
+    font-size: 21px;
+    margin-bottom: 15px;  /* Added spacing after heading */
+}
+
+.box-content .box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;    /* Changed from 3rem to 1rem */
+    margin-bottom: 1rem; /* Changed from 3rem to 1rem */
+}
+
+.box-content p {
+    color: #007185;     /* Amazon's link color */
+    margin-top: 15px;   /* Added spacing before "Shop now" */
+    font-size: 14px;    /* Adjusted font size */
+}
+
+.box {
+    height: 420px;      /* Slightly increased height */
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px 0px 15px;
+}
+/*Starting of the Footer*/
+footer{
+    margin-top: 15px;
+}
+.panel-1{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color:white;
+    font-size: 0.85rem;
+}
+.panel-2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    color:white;
+    background-color: #232f3e;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd;
+}
